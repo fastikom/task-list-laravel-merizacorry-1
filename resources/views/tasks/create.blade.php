@@ -6,7 +6,6 @@
 
     <div class="panel-body">
         <!-- Display Validation Errors -->
-        @include('common.errors')
 
         <!-- New Task Form -->
         <form action="{{ route('tasks.create') }}" method="POST" class="form-horizontal">
